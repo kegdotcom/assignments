@@ -1,0 +1,21 @@
+doctype html 
+html(lang="en")
+    head        
+        title Create New Assignment 
+        style   
+            include style.css 
+    body 
+        h1 Create a New Assignment
+        form(action='/new', method='POST')
+            input(type="text", placeholder="Class Name", name="course", class="new")
+            br
+            input(type="text", placeholder="Assignment Name", name="assignment", class="new")
+            br
+            input(type="text", placeholder="Assignment Type", name="type", class="new")
+            br
+            input(type="date", name="dueDate", class="new")
+            input(type="time", name="dueTime", class="new")
+            br
+            input(type="color", name="color", class="new")
+            br
+            input(class="newbutton", value="Create Asignment", type="submit", name="create-submit-button")

@@ -1,0 +1,12 @@
+doctype html 
+html(lang='en')
+    head
+        title Home 
+        style
+            include style.css
+    body 
+        h1 Home 
+        form(id="index-form", method="GET")
+            input(class="button", id="view-button", value="View Assignments", type="submit", formaction="/view")
+            br
+            input(class="button", id="create-button", value="Create a New Assignment", type="submit", formaction="/create")

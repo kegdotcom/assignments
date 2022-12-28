@@ -1,0 +1,62 @@
+html {
+    text-align: center;
+    background-color: black;
+    color: slategray;
+    font-size: 36px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+input.new {
+    background-color: darkcyan;
+    color: black;
+    margin: 10px;
+    padding: 2px;
+    border-color: black;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+input.newbutton {
+    background-color: slategray;
+    color: black;
+    padding: 10px;
+    font-size: 32px;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: slategray;
+    color: black;
+    padding: 15px;
+    font-size: 36px;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+::placeholder {
+    color: black;
+    font-size: 24px;
+}
+
+table {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    color: darkcyan;
+    border: 2px solid slategray;
+    width: 75%;
+}
+
+td.listhead {
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: darkcyan;
+    border: 1px dotted green;
+    padding-left: 20px;
+    padding-right: 20px;
+}

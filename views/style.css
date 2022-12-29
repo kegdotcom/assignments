@@ -43,20 +43,23 @@ input.newbutton {
 }
 
 table {
-    display: inline-block;
-    padding: 20px;
-    text-align: center;
-    color: darkcyan;
-    border: 2px solid slategray;
-    width: 75%;
-}
-
-td.listhead {
-    display: inline-flex;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: darkcyan;
-    border: 1px dotted green;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 96%;
+    margin-left: 2%;
+    font-size: 18px;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: darkcyan;
+  }
+  tr:nth-child(even) {
+    background-color: cyan;
+  }

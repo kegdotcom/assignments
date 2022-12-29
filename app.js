@@ -7,6 +7,7 @@ class Assignment {
         this.dueDate = new Date(dueYear, dueMonth - 1, dueDay, dueHour, dueMin);
         this.color = color;
         this.completed = completed;
+        this.test = false;
     }
 
     complete() {

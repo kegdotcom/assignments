@@ -6,26 +6,15 @@ html(lang='en')
             include style.css 
     body 
         h1 Assignments
-        table 
-            tr
-                th Course 
-                th Assignment 
-                th Type 
-                th Date 
-                th Time 
-                th Completed
-            tr 
-                td AIS100 
-                td Quiz Week 12
-                td Quiz
-                td 12/31/2003
-                td 7:59 PM 
-                td(style="background-color: green")
-            tr      
-                td MATH340 
-                td Homework 9
-                td Problems 
-                td 2/12/23
-                td 7:59 PM 
-                td(style="background-color: red")
+        table
+            thead 
+                tr
+                    th Course 
+                    th Type 
+                    th Assignment 
+                    th Date 
+                    th Time 
+                    th Completed
+            tbody 
+                #{tdata}
                 
